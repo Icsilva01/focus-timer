@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page{
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: #323238;
+
+  background: #FFFFFF;
+}
+
+main{
+ margin-top: 254px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.components{
+  padding-right: 192px;
+}
+
+.timer{
+  text-align: center;
+  font-size: 126.166px;
+  line-height: 148px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.controls{
+padding-top: 48px;
+  display: flex;
+  gap: 40px;
+
+}
+
+.sounds{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.sounds button{
+  width: 138px;
+  height: 152px;
+
+  background: #E1E1E6;
+  border-radius: 24px;
+}
+
+.sounds button:hover,
+.sounds path:hover{
+  background: #02799D;
+}
